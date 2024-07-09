@@ -4,7 +4,7 @@ import os
 from playsound import playsound
 
 # Set the path to the Tesseract executable (if necessary)
-pytesseract.pytesseract.tesseract_cmd = r'C://Program Files//Tesseract-OCR//tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'your Tesseract path'
 
 # Set the TESSDATA_PREFIX environment variable
 os.environ['TESSDATA_PREFIX'] = r'C://Program Files//Tesseract-OCR//tessdata'
